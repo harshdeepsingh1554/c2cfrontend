@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./AuthContext";
 
-import Landing from "./pages/landing";
-import Login from "./pages/login";
+import Landing from "./pages/Landing"; // Changed 'landing' to 'Landing'
+import Login from "./pages/Login";
 import Register from "./pages/Register";
 import StudentDashboard from "./pages/StudentDashboard";
 import IndustryDashboard from "./pages/IndustryDashboard";
